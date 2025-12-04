@@ -1,0 +1,68 @@
+[
+  {
+    "id": "fa-001",
+    "user_email": "linda.lee@example.com",
+    "alert_type": "multiple_accounts",
+    "severity": "critical",
+    "description": "Detected multiple accounts sharing device and payment fingerprint.",
+    "status": "new",
+    "created_date": "2024-12-05T08:30:00Z",
+    "ip_address": "172.16.20.4",
+    "device_info": "iPhone 15 · Safari",
+    "related_entity_type": "user",
+    "related_entity_id": "usr_92a17d"
+  },
+  {
+    "id": "fa-002",
+    "user_email": "cardsmith@tcgmarket.com",
+    "alert_type": "price_anomaly",
+    "severity": "high",
+    "description": "Listing price 65% below market average for rare card.",
+    "status": "investigating",
+    "created_date": "2024-12-05T07:10:00Z",
+    "ip_address": "10.0.3.44",
+    "device_info": "Windows 11 · Chrome",
+    "related_entity_type": "listing",
+    "related_entity_id": "lst_1033aa5"
+  },
+  {
+    "id": "fa-003",
+    "user_email": "sarah.hill@example.com",
+    "alert_type": "scan_anomaly",
+    "severity": "medium",
+    "description": "Image hash mismatch on upload; potential doctored scan.",
+    "status": "new",
+    "created_date": "2024-12-04T21:55:00Z",
+    "ip_address": "192.168.1.88",
+    "device_info": "Pixel 8 · Chrome",
+    "related_entity_type": "listing",
+    "related_entity_id": "lst_b82aa90"
+  },
+  {
+    "id": "fa-004",
+    "user_email": "will.nguyen@example.com",
+    "alert_type": "chargeback",
+    "severity": "high",
+    "description": "Chargeback opened for recent order; buyer has prior disputes.",
+    "status": "resolved",
+    "created_date": "2024-12-03T16:05:00Z",
+    "ip_address": "10.10.14.2",
+    "device_info": "MacBook Pro · Safari",
+    "related_entity_type": "order",
+    "related_entity_id": "ord_444299c",
+    "resolved_by": "risk@tcgmarket.com",
+    "resolution_notes": "Refund issued and listing removed."
+  },
+  {
+    "id": "fa-005",
+    "user_email": "devon.chan@example.com",
+    "alert_type": "ip_mismatch",
+    "severity": "low",
+    "description": "Login from unusual country compared to historical logins.",
+    "status": "dismissed",
+    "created_date": "2024-12-02T12:18:00Z",
+    "ip_address": "203.0.113.44",
+    "device_info": "iPadOS · Safari",
+    "resolution_notes": "Travel verified via support ticket."
+  }
+]

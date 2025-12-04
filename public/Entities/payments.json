@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "order_id": "ORD-10001",
+    "buyer_email": "john.smith@example.com",
+    "amount": 136.00,
+    "payment_method": "credit_card",
+    "status": "captured",
+    "transaction_id": "TXN-CC-789456123",
+    "fraud_score": 12,
+    "is_flagged": false,
+    "flag_reason": ""
+  },
+  {
+    "id": 2,
+    "order_id": "ORD-10002",
+    "buyer_email": "linda.park@example.com",
+    "amount": 99.50,
+    "payment_method": "paypal",
+    "status": "authorized",
+    "transaction_id": "TXN-PP-4455667788",
+    "fraud_score": 22,
+    "is_flagged": false,
+    "flag_reason": ""
+  },
+  {
+    "id": 3,
+    "order_id": "ORD-10003",
+    "buyer_email": "sara.khan@example.com",
+    "amount": 71.00,
+    "payment_method": "apple_pay",
+    "status": "captured",
+    "transaction_id": "TXN-AP-9988776655",
+    "fraud_score": 9,
+    "is_flagged": false,
+    "flag_reason": ""
+  },
+  {
+    "id": 4,
+    "order_id": "ORD-10004",
+    "buyer_email": "mark.jones@example.com",
+    "amount": 42.00,
+    "payment_method": "debit_card",
+    "status": "failed",
+    "transaction_id": "TXN-DC-1122334455",
+    "fraud_score": 48,
+    "is_flagged": true,
+    "flag_reason": "High fraud score for failed attempt"
+  },
+  {
+    "id": 5,
+    "order_id": "ORD-10005",
+    "buyer_email": "john.smith@example.com",
+    "amount": 57.50,
+    "payment_method": "google_pay",
+    "status": "chargeback",
+    "transaction_id": "TXN-GP-5544332211",
+    "fraud_score": 75,
+    "is_flagged": true,
+    "flag_reason": "Chargeback initiated by buyer"
+  },
+  {
+    "id": 6,
+    "order_id": "ORD-10006",
+    "buyer_email": "linda.park@example.com",
+    "amount": 35.50,
+    "payment_method": "credit_card",
+    "status": "refunded",
+    "transaction_id": "TXN-CC-3344556677",
+    "fraud_score": 18,
+    "is_flagged": false,
+    "flag_reason": ""
+  }
+]

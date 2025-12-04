@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ann-001",
+    "title": "Holiday Shipping Deadlines",
+    "content": "Order by Dec 18 for standard delivery and Dec 22 for expedited service.",
+    "type": "info",
+    "target_audience": "all",
+    "is_active": true,
+    "start_date": "2024-12-01",
+    "end_date": "2024-12-24",
+    "banner_url": "https://images.unsplash.com/photo-1607082349566-187342175e2f",
+    "created_date": "2024-12-01T10:00:00Z"
+  },
+  {
+    "id": "ann-002",
+    "title": "Weekend Maintenance",
+    "content": "Marketplace will be in read-only mode on Dec 9 from 1–3 AM UTC.",
+    "type": "maintenance",
+    "target_audience": "all",
+    "is_active": true,
+    "start_date": "2024-12-09",
+    "end_date": "2024-12-09",
+    "banner_url": "",
+    "created_date": "2024-12-04T15:20:00Z"
+  },
+  {
+    "id": "ann-003",
+    "title": "Seller Boost Promo",
+    "content": "50% off boosted listing fees for verified sellers this week.",
+    "type": "promotion",
+    "target_audience": "verified_sellers",
+    "is_active": true,
+    "start_date": "2024-12-05",
+    "end_date": "2024-12-12",
+    "banner_url": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a",
+    "created_date": "2024-12-05T09:05:00Z"
+  },
+  {
+    "id": "ann-004",
+    "title": "New Bulk Upload Tools",
+    "content": "We’ve rolled out a faster CSV importer with instant pricing suggestions.",
+    "type": "update",
+    "target_audience": "sellers",
+    "is_active": false,
+    "start_date": "2024-11-15",
+    "end_date": "2024-12-01",
+    "banner_url": "",
+    "created_date": "2024-11-15T12:00:00Z"
+  }
+]

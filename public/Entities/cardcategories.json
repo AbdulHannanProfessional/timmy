@@ -1,0 +1,40 @@
+[
+  {
+    "id": "cat-001",
+    "name": "Pokemon",
+    "slug": "pokemon",
+    "description": "Modern and vintage Pokemon TCG singles and sealed product.",
+    "icon_url": "https://images.pokemontcg.io/base1/4_hires.png",
+    "is_active": true,
+    "sets": [
+      { "name": "Scarlet & Violet: Paradox Rift", "code": "PAR", "release_date": "2023-11-03" },
+      { "name": "Sword & Shield: Crown Zenith", "code": "CRZ", "release_date": "2023-01-20" },
+      { "name": "Base Set", "code": "BASE", "release_date": "1999-01-09" }
+    ]
+  },
+  {
+    "id": "cat-002",
+    "name": "Magic: The Gathering",
+    "slug": "mtg",
+    "description": "MTG singles, boosters, Commander decks, and accessories.",
+    "icon_url": "https://svgsilh.com/svg/2024969.svg",
+    "is_active": true,
+    "sets": [
+      { "name": "Wilds of Eldraine", "code": "WOE", "release_date": "2023-09-08" },
+      { "name": "Dominaria Remastered", "code": "DMR", "release_date": "2023-01-13" },
+      { "name": "Commander Masters", "code": "CMM", "release_date": "2023-08-04" }
+    ]
+  },
+  {
+    "id": "cat-003",
+    "name": "Yu-Gi-Oh!",
+    "slug": "yugioh",
+    "description": "TCG and OCG cards, tins, and collector's sets.",
+    "icon_url": "",
+    "is_active": false,
+    "sets": [
+      { "name": "25th Anniversary Rarity Collection", "code": "RA02", "release_date": "2023-11-03" },
+      { "name": "Duelist Nexus", "code": "DUNE", "release_date": "2023-07-28" }
+    ]
+  }
+]

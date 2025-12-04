@@ -1,0 +1,130 @@
+[
+  {
+    "id": "ps-001",
+    "setting_key": "marketplace_commission",
+    "setting_value": "10",
+    "setting_type": "fee",
+    "description": "Percentage taken from each successful sale.",
+    "is_active": true
+  },
+  {
+    "id": "ps-002",
+    "setting_key": "transaction_fee",
+    "setting_value": "0.50",
+    "setting_type": "fee",
+    "description": "Flat fee charged per transaction.",
+    "is_active": true
+  },
+  {
+    "id": "ps-003",
+    "setting_key": "listing_fee",
+    "setting_value": "0.00",
+    "setting_type": "fee",
+    "description": "Fee to create a new listing.",
+    "is_active": true
+  },
+  {
+    "id": "ps-004",
+    "setting_key": "boosted_listing_fee",
+    "setting_value": "5.00",
+    "setting_type": "fee",
+    "description": "Fee for promoted listings.",
+    "is_active": true
+  },
+  {
+    "id": "ps-005",
+    "setting_key": "min_listing_price",
+    "setting_value": "0.99",
+    "setting_type": "threshold",
+    "description": "Minimum allowed price for a listing.",
+    "is_active": true
+  },
+  {
+    "id": "ps-006",
+    "setting_key": "max_listing_price",
+    "setting_value": "100000",
+    "setting_type": "threshold",
+    "description": "Maximum allowed price for a listing.",
+    "is_active": true
+  },
+  {
+    "id": "ps-007",
+    "setting_key": "payout_delay_days",
+    "setting_value": "3",
+    "setting_type": "threshold",
+    "description": "Number of days funds are held before payout.",
+    "is_active": true
+  },
+  {
+    "id": "ps-008",
+    "setting_key": "min_payout_amount",
+    "setting_value": "10",
+    "setting_type": "threshold",
+    "description": "Minimum balance required to trigger payout.",
+    "is_active": true
+  },
+  {
+    "id": "ps-009",
+    "setting_key": "ai_scanning_enabled",
+    "setting_value": "true",
+    "setting_type": "feature_flag",
+    "description": "Allow users to scan cards with AI.",
+    "is_active": true
+  },
+  {
+    "id": "ps-010",
+    "setting_key": "auto_price_sync",
+    "setting_value": "true",
+    "setting_type": "feature_flag",
+    "description": "Automatically sync market prices.",
+    "is_active": true
+  },
+  {
+    "id": "ps-011",
+    "setting_key": "fraud_detection_enabled",
+    "setting_value": "true",
+    "setting_type": "feature_flag",
+    "description": "Enable AI-powered fraud monitoring.",
+    "is_active": true
+  },
+  {
+    "id": "ps-012",
+    "setting_key": "seller_verification_required",
+    "setting_value": "true",
+    "setting_type": "feature_flag",
+    "description": "Require KYC for sellers.",
+    "is_active": true
+  },
+  {
+    "id": "ps-013",
+    "setting_key": "email_notifications",
+    "setting_value": "true",
+    "setting_type": "notification",
+    "description": "Send email alerts to users.",
+    "is_active": true
+  },
+  {
+    "id": "ps-014",
+    "setting_key": "push_notifications",
+    "setting_value": "true",
+    "setting_type": "notification",
+    "description": "Enable in-app push notifications.",
+    "is_active": true
+  },
+  {
+    "id": "ps-015",
+    "setting_key": "order_alerts",
+    "setting_value": "true",
+    "setting_type": "notification",
+    "description": "Notify admins of new orders.",
+    "is_active": true
+  },
+  {
+    "id": "ps-016",
+    "setting_key": "dispute_alerts",
+    "setting_value": "true",
+    "setting_type": "notification",
+    "description": "Notify admins of new disputes.",
+    "is_active": true
+  }
+]

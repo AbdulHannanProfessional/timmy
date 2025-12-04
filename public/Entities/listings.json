@@ -1,0 +1,94 @@
+{
+  "name": "Listing",
+  "type": "object",
+  "properties": {
+    "seller_email": {
+      "type": "string"
+    },
+    "card_name": {
+      "type": "string"
+    },
+    "card_set": {
+      "type": "string"
+    },
+    "card_number": {
+      "type": "string"
+    },
+    "tcg_category": {
+      "type": "string",
+      "enum": [
+        "pokemon",
+        "mtg",
+        "yugioh",
+        "one_piece",
+        "disney_lorcana",
+        "other"
+      ]
+    },
+    "rarity": {
+      "type": "string",
+      "enum": [
+        "common",
+        "uncommon",
+        "rare",
+        "ultra_rare",
+        "secret_rare",
+        "promo"
+      ]
+    },
+    "condition": {
+      "type": "string",
+      "enum": [
+        "mint",
+        "near_mint",
+        "excellent",
+        "good",
+        "light_played",
+        "played",
+        "poor"
+      ]
+    },
+    "price": {
+      "type": "number"
+    },
+    "market_price": {
+      "type": "number"
+    },
+    "quantity": {
+      "type": "number",
+      "default": 1
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "approved",
+        "rejected",
+        "sold",
+        "expired"
+      ],
+      "default": "pending"
+    },
+    "is_flagged": {
+      "type": "boolean",
+      "default": false
+    },
+    "flag_reason": {
+      "type": "string"
+    },
+    "rejection_reason": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "seller_email",
+    "card_name",
+    "price"
+  ]
+}

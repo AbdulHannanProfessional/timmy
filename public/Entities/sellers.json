@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "user_email": "john.smith@example.com",
+    "business_name": "Smith Electronics",
+    "verification_status": "approved",
+    "kyc_documents": [
+      {
+        "type": "id_card",
+        "url": "/public/kyc/smith-id.png",
+        "status": "approved"
+      },
+      {
+        "type": "business_license",
+        "url": "/public/kyc/smith-license.pdf",
+        "status": "approved"
+      }
+    ],
+    "risk_level": "low",
+    "total_sales": 312,
+    "total_revenue": 18540,
+    "rating": 4.7,
+    "is_suspended": false,
+    "notes": "Long-term verified seller with consistent performance."
+  },
+  {
+    "id": 2,
+    "user_email": "sara.khan@example.com",
+    "business_name": "Khan Fashion Hub",
+    "verification_status": "under_review",
+    "kyc_documents": [
+      {
+        "type": "passport",
+        "url": "/public/kyc/khan-passport.jpg",
+        "status": "submitted"
+      }
+    ],
+    "risk_level": "medium",
+    "total_sales": 89,
+    "total_revenue": 5240,
+    "rating": 4.3,
+    "is_suspended": false,
+    "notes": "Seller requested expedited KYC review."
+  },
+  {
+    "id": 3,
+    "user_email": "mark.jones@example.com",
+    "business_name": "Jones Home Supplies",
+    "verification_status": "rejected",
+    "kyc_documents": [
+      {
+        "type": "id_card",
+        "url": "/public/kyc/jones-id.jpg",
+        "status": "rejected"
+      }
+    ],
+    "risk_level": "high",
+    "total_sales": 12,
+    "total_revenue": 790,
+    "rating": 3.1,
+    "is_suspended": true,
+    "notes": "Suspended due to repeated KYC inconsistencies."
+  },
+  {
+    "id": 4,
+    "user_email": "linda.park@example.com",
+    "business_name": "Park Beauty Essentials",
+    "verification_status": "pending",
+    "kyc_documents": [],
+    "risk_level": "low",
+    "total_sales": 0,
+    "total_revenue": 0,
+    "rating": 0,
+    "is_suspended": false,
+    "notes": "New seller awaiting document submission."
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "id": "st-001",
+    "user_email": "maria.lopez@example.com",
+    "subject": "Card arrived damaged",
+    "category": "shipping",
+    "priority": "high",
+    "status": "open",
+    "assigned_to": "support.lead@tcgmarket.com",
+    "created_date": "2024-12-05T06:45:00Z",
+    "messages": [
+      {
+        "sender": "maria.lopez@example.com",
+        "content": "The card I received has a bend in the corner.",
+        "timestamp": "2024-12-05T06:45:00Z",
+        "is_admin": false
+      },
+      {
+        "sender": "support@tcgmarket.com",
+        "content": "Sorry about this! Can you share photos of the packaging?",
+        "timestamp": "2024-12-05T07:05:00Z",
+        "is_admin": true
+      }
+    ]
+  },
+  {
+    "id": "st-002",
+    "user_email": "james.cho@example.com",
+    "subject": "Verification documents pending",
+    "category": "account",
+    "priority": "medium",
+    "status": "in_progress",
+    "assigned_to": "kyc@tcgmarket.com",
+    "created_date": "2024-12-04T18:10:00Z",
+    "messages": [
+      {
+        "sender": "james.cho@example.com",
+        "content": "Uploaded my passport yesterday. Any update?",
+        "timestamp": "2024-12-04T18:10:00Z",
+        "is_admin": false
+      },
+      {
+        "sender": "kyc@tcgmarket.com",
+        "content": "We are reviewing now; you'll hear back shortly.",
+        "timestamp": "2024-12-04T18:40:00Z",
+        "is_admin": true
+      }
+    ]
+  },
+  {
+    "id": "st-003",
+    "user_email": "lucy.watson@example.com",
+    "subject": "Payment failed during checkout",
+    "category": "payment",
+    "priority": "urgent",
+    "status": "waiting_response",
+    "assigned_to": "billing@tcgmarket.com",
+    "created_date": "2024-12-04T14:32:00Z",
+    "messages": [
+      {
+        "sender": "lucy.watson@example.com",
+        "content": "My card keeps declining but bank shows no issue.",
+        "timestamp": "2024-12-04T14:32:00Z",
+        "is_admin": false
+      },
+      {
+        "sender": "billing@tcgmarket.com",
+        "content": "Please confirm the last 4 digits and try again with a fresh browser session.",
+        "timestamp": "2024-12-04T14:50:00Z",
+        "is_admin": true
+      }
+    ]
+  },
+  {
+    "id": "st-004",
+    "user_email": "devon.chan@example.com",
+    "subject": "Listing not appearing in search",
+    "category": "listing",
+    "priority": "low",
+    "status": "resolved",
+    "assigned_to": "support@tcgmarket.com",
+    "resolution": "Cache refreshed and listing re-indexed.",
+    "created_date": "2024-12-03T09:05:00Z",
+    "messages": [
+      {
+        "sender": "devon.chan@example.com",
+        "content": "Created a new listing but can't find it in search.",
+        "timestamp": "2024-12-03T09:05:00Z",
+        "is_admin": false
+      },
+      {
+        "sender": "support@tcgmarket.com",
+        "content": "We refreshed search index; can you confirm it's visible now?",
+        "timestamp": "2024-12-03T09:20:00Z",
+        "is_admin": true
+      },
+      {
+        "sender": "devon.chan@example.com",
+        "content": "All good now. Thanks!",
+        "timestamp": "2024-12-03T09:35:00Z",
+        "is_admin": false
+      }
+    ]
+  }
+]

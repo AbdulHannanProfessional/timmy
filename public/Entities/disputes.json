@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "order_id": "ORD-10005",
+    "buyer_email": "john.smith@example.com",
+    "seller_email": "mark.jones@example.com",
+    "type": "damaged",
+    "description": "Item arrived with a cracked casing and does not power on.",
+    "status": "under_review",
+    "evidence": [
+      {
+        "submitted_by": "buyer",
+        "type": "image",
+        "url": "/public/evidence/order10005-damage1.jpg",
+        "description": "Crack near the charging port"
+      },
+      {
+        "submitted_by": "buyer",
+        "type": "image",
+        "url": "/public/evidence/order10005-damage2.jpg",
+        "description": "Device screen flickers and won't start"
+      }
+    ],
+    "resolution": "",
+    "refund_amount": 0,
+    "admin_notes": "",
+    "resolved_by": ""
+  },
+  {
+    "id": 2,
+    "order_id": "ORD-10002",
+    "buyer_email": "linda.park@example.com",
+    "seller_email": "john.smith@example.com",
+    "type": "item_not_received",
+    "description": "Tracking shows no movement for 7 days; item never arrived.",
+    "status": "open",
+    "evidence": [
+      {
+        "submitted_by": "buyer",
+        "type": "screenshot",
+        "url": "/public/evidence/order10002-tracking.jpg",
+        "description": "Tracking stuck in pre-shipment"
+      }
+    ],
+    "resolution": "",
+    "refund_amount": 0,
+    "admin_notes": "Seller has been notified to provide shipping update.",
+    "resolved_by": ""
+  },
+  {
+    "id": 3,
+    "order_id": "ORD-10003",
+    "buyer_email": "sara.khan@example.com",
+    "seller_email": "mark.jones@example.com",
+    "type": "item_not_as_described",
+    "description": "Received a different camera model than what was listed.",
+    "status": "resolved_buyer",
+    "evidence": [
+      {
+        "submitted_by": "buyer",
+        "type": "image",
+        "url": "/public/evidence/order10003-wrong-item.jpg",
+        "description": "Camera lens and branding differ from listing"
+      }
+    ],
+    "resolution": "Refund issued to buyer for incorrect item.",
+    "refund_amount": 71.00,
+    "admin_notes": "Seller admitted incorrect stock was sent.",
+    "resolved_by": "admin@example.com"
+  },
+  {
+    "id": 4,
+    "order_id": "ORD-10004",
+    "buyer_email": "mark.jones@example.com",
+    "seller_email": "sara.khan@example.com",
+    "type": "wrong_item",
+    "description": "Ordered a Bluetooth Speaker but received a phone charger.",
+    "status": "closed",
+    "evidence": [
+      {
+        "submitted_by": "buyer",
+        "type": "image",
+        "url": "/public/evidence/order10004-wrong.jpg",
+        "description": "Incorrect item in package"
+      }
+    ],
+    "resolution": "Buyer declined further action after seller offered replacement.",
+    "refund_amount": 0,
+    "admin_notes": "Buyer closed dispute voluntarily.",
+    "resolved_by": "buyer"
+  },
+  {
+    "id": 5,
+    "order_id": "ORD-10001",
+    "buyer_email": "john.smith@example.com",
+    "seller_email": "sara.khan@example.com",
+    "type": "counterfeit",
+    "description": "The headphones received appear to be counterfeit.",
+    "status": "resolved_seller",
+    "evidence": [
+      {
+        "submitted_by": "buyer",
+        "type": "image",
+        "url": "/public/evidence/order10001-counterfeit.jpg",
+        "description": "Logo and packaging look suspicious"
+      },
+      {
+        "submitted_by": "seller",
+        "type": "document",
+        "url": "/public/evidence/order10001-invoice.pdf",
+        "description": "Seller-provided proof of authenticity"
+      }
+    ],
+    "resolution": "Seller provided valid documentation; claim rejected.",
+    "refund_amount": 0,
+    "admin_notes": "Product authenticity confirmed.",
+    "resolved_by": "admin@example.com"
+  },
+  {
+    "id": 6,
+    "order_id": "ORD-10006",
+    "buyer_email": "linda.park@example.com",
+    "seller_email": "john.smith@example.com",
+    "type": "other",
+    "description": "Package was delivered but left outside and stolen.",
+    "status": "open",
+    "evidence": [
+      {
+        "submitted_by": "buyer",
+        "type": "screenshot",
+        "url": "/public/evidence/order10006-delivery.jpg",
+        "description": "Carrier photo proof of delivery"
+      }
+    ],
+    "resolution": "",
+    "refund_amount": 0,
+    "admin_notes": "",
+    "resolved_by": ""
+  }
+]

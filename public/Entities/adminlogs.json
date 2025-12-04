@@ -1,0 +1,62 @@
+[
+  {
+    "id": "log-001",
+    "admin_email": "amy.risk@tcgmarket.com",
+    "action": "approve",
+    "entity_type": "Listing",
+    "entity_id": "lst_1033aa5",
+    "description": "Approved premium listing after manual review.",
+    "previous_value": "status=pending",
+    "new_value": "status=approved",
+    "ip_address": "10.0.0.45",
+    "created_date": "2024-12-05T08:00:00Z"
+  },
+  {
+    "id": "log-002",
+    "admin_email": "ops@tcgmarket.com",
+    "action": "payout",
+    "entity_type": "Payout",
+    "entity_id": "po_88421",
+    "description": "Released seller payout batch PO-88421.",
+    "previous_value": "status=pending",
+    "new_value": "status=paid",
+    "ip_address": "10.0.0.21",
+    "created_date": "2024-12-05T07:40:00Z"
+  },
+  {
+    "id": "log-003",
+    "admin_email": "support.lead@tcgmarket.com",
+    "action": "resolve_dispute",
+    "entity_type": "Dispute",
+    "entity_id": "dsp_44199",
+    "description": "Resolved dispute in favor of buyer; refund issued.",
+    "previous_value": "status=under_review",
+    "new_value": "status=closed_refunded",
+    "ip_address": "10.0.1.12",
+    "created_date": "2024-12-04T23:22:00Z"
+  },
+  {
+    "id": "log-004",
+    "admin_email": "fraud.team@tcgmarket.com",
+    "action": "suspend",
+    "entity_type": "Seller",
+    "entity_id": "seller_2001",
+    "description": "Temporarily suspended seller due to linked fraud alert.",
+    "previous_value": "status=active",
+    "new_value": "status=suspended",
+    "ip_address": "10.0.5.33",
+    "created_date": "2024-12-04T16:10:00Z"
+  },
+  {
+    "id": "log-005",
+    "admin_email": "content@tcgmarket.com",
+    "action": "update",
+    "entity_type": "Announcement",
+    "entity_id": "ann_2301",
+    "description": "Updated holiday shipping announcement end date.",
+    "previous_value": "end_date=2024-12-22",
+    "new_value": "end_date=2024-12-24",
+    "ip_address": "10.0.2.18",
+    "created_date": "2024-12-03T11:04:00Z"
+  }
+]

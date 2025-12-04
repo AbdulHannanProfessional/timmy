@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "seller_email": "sara.khan@example.com",
+    "order_id": "ORD-10001",
+    "amount": 120.0,
+    "platform_fee": 6.0,
+    "net_amount": 114.0,
+    "status": "completed",
+    "scheduled_date": "2024-01-05",
+    "completed_date": "2024-01-06",
+    "delay_reason": "",
+    "payout_method": "bank_transfer"
+  },
+  {
+    "id": 2,
+    "seller_email": "john.smith@example.com",
+    "order_id": "ORD-10002",
+    "amount": 90.0,
+    "platform_fee": 4.5,
+    "net_amount": 85.5,
+    "status": "processing",
+    "scheduled_date": "2024-01-10",
+    "completed_date": "",
+    "delay_reason": "",
+    "payout_method": "paypal"
+  },
+  {
+    "id": 3,
+    "seller_email": "mark.jones@example.com",
+    "order_id": "ORD-10003",
+    "amount": 60.0,
+    "platform_fee": 3.0,
+    "net_amount": 57.0,
+    "status": "pending",
+    "scheduled_date": "2024-01-12",
+    "completed_date": "",
+    "delay_reason": "",
+    "payout_method": "stripe"
+  },
+  {
+    "id": 4,
+    "seller_email": "sara.khan@example.com",
+    "order_id": "ORD-10004",
+    "amount": 35.0,
+    "platform_fee": 2.0,
+    "net_amount": 33.0,
+    "status": "delayed",
+    "scheduled_date": "2024-01-08",
+    "completed_date": "",
+    "delay_reason": "Bank verification pending",
+    "payout_method": "bank_transfer"
+  },
+  {
+    "id": 5,
+    "seller_email": "john.smith@example.com",
+    "order_id": "ORD-10005",
+    "amount": 50.0,
+    "platform_fee": 2.5,
+    "net_amount": 47.5,
+    "status": "failed",
+    "scheduled_date": "2024-01-09",
+    "completed_date": "",
+    "delay_reason": "Payment gateway rejection",
+    "payout_method": "paypal"
+  },
+  {
+    "id": 6,
+    "seller_email": "linda.park@example.com",
+    "order_id": "ORD-10006",
+    "amount": 30.0,
+    "platform_fee": 1.5,
+    "net_amount": 28.5,
+    "status": "completed",
+    "scheduled_date": "2024-01-03",
+    "completed_date": "2024-01-04",
+    "delay_reason": "",
+    "payout_method": "stripe"
+  }
+]
